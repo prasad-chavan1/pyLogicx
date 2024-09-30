@@ -1,6 +1,6 @@
-# pyLogix
+# pyLogicx
 
-`pyLogix` is a Python library that provides utility functions for text processing and a configurable logging system. It is designed to assist developers with common text manipulation tasks while also providing a robust logging mechanism to track application behavior.
+` pyLogicx ` is a Python library that provides utility functions for text processing and a configurable logging system. It is designed to assist developers with common text manipulation tasks while also providing a robust logging mechanism to track application behavior.
 
 ## Features
   
@@ -13,7 +13,7 @@
 You can install the library using `pip`:
 
 ```bash
-pip install pyLogix
+pip install pyLogicx
 ```
 
 ## Usage
@@ -23,8 +23,8 @@ pip install pyLogix
 You can import the utility functions and the logger as follows:
 
 ```python
-from pyLogix.utils import count_words, reverse_text, find_substring
-from pyLogix.logger import logger, set_log_level
+from pyLogicx.utils import count_words, reverse_text, find_substring
+from pyLogicx.logger import logger, set_log_level
 ```
 
 ### Setting Log Level

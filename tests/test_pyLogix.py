@@ -1,4 +1,4 @@
-from pyLogix.logger import logger, set_log_level
+from pyLogicx.logger import logger, set_log_level
 
 # Set the log level to DEBUG to capture all logs
 set_log_level('DEBUG')

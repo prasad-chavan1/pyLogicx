@@ -23,7 +23,7 @@ pip install pyLogicx
 You can import the utility functions and the logger as follows:
 
 ```python
-from pyLogicx.utils import count_words, reverse_text, find_substring
+from pyLogicx.utils import track_time
 from pyLogicx.logger import logger, set_log_level
 ```
 
@@ -39,38 +39,18 @@ set_log_level('DEBUG')  # Options: DEBUG, INFO, WARNING, ERROR
 
 #### 1. Count Words
 
-This function counts the number of words in a given string.
+This function tracks the time of function execution.
 
 ```python
-text = "Hello, this is a sample text for testing."
-word_count = count_words(text)
-print(f"Word Count: {word_count}")
-```
+@track_time
+def process_data():
+    # Your code here
 
-#### 2. Reverse Text
-
-This function reverses a given string.
-
-```python
-text = "Hello, World!"
-reversed_text = reverse_text(text)
-print(f"Reversed Text: {reversed_text}")
-```
-
-#### 3. Find Substring
-
-This function checks if a specified substring exists within a given string.
-
-```python
-text = "Hello, this is a sample text for testing."
-substring = "sample"
-exists = find_substring(text, substring)
-print(f"Does the substring exist? {exists}")
 ```
 
 ### Logging Example
 
-You can log messages at various levels using the logger:
+You can log messages at various levels using the logger & stored to the logger file:
 
 ```python
 logger.debug("This is a debug message.")
